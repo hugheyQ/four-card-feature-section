@@ -7,9 +7,6 @@ html{
     box-sizing: inherit;
 }
 
-.border{
-    border: 1px solid black;
-}
 
 body{
     padding: 0;
@@ -23,47 +20,47 @@ body{
     align-items: center;
     width: 100%;
 
-    @media (min-width: 992px){
+    @media (min-width: 62rem){
     	justify-content:center;
         height:100vh;
     }
 
     main{
-        margin: 60px 35px;
+        margin: 3.75rem 2.1875rem;
         
 
-        @media (min-width: 992px){
+        @media (min-width: 62rem){
         	width: 100%;
-            max-width: 1139px;
+            max-width: 71.1875rem;
             margin: 0;
         }
 
         #heading{
             display: flex;
             flex-direction: column;
-            margin-bottom: 70px;
+            margin-bottom: 4.375rem;
             align-items: center;
 
             h1{
                 display: flex;
                 flex-direction: column;
-                font-size: 24px;
+                font-size: 1.5rem;
                 color: $dark-blue;
                 text-align: center;
                 align-items: center;
 
-                @media (min-width: 992px){
-                	font-size: 30px;;
+                @media (min-width: 62rem){
+                	font-size: 1.875rem;
                 }
         
                 span:nth-child(1){
                     font-weight: 200;
-                    margin-bottom: 6px;
+                    margin-bottom: .375rem;
                 }
 
                 span:nth-child(2){
                     font-weight: 600;
-                    margin-bottom: 2px;
+                    margin-bottom: .125rem;
                 }
             }
 
@@ -73,10 +70,10 @@ body{
                 font-weight: 400;
                 text-align: center;
                 width: 100%;
-                max-width: 430px;
+                max-width: 26.875rem;
 
-                @media (min-width: 992px){
-                	font-size: 14px;
+                @media (min-width: 62rem){
+                	font-size: .875rem;
                 }
             }
         
@@ -84,41 +81,41 @@ body{
 
         #tools{
 
-            @media (min-width: 992px){
+            @media (min-width: 62rem){
             	display:flex;
                 flex-direction: row;
                 justify-content: space-between;
 
                 &>div{
                     width: 100%;
-                    max-width: 360px;
+                    max-width: 22.5rem;
                     
                 }
 
                 &>div:nth-child(1), &>div:nth-child(3){
-                    margin: 0 30px;
+                    margin: 0 1.875rem;
                 }
 
 
             }
            
             .card{
-                padding: 27px 24px;
-                border-radius: 5px;
-                box-shadow: 0px 9px 36px -21px $grayish-blue;
+                padding: 1.6875rem 1.5rem;
+                border-radius: .3125rem;
+                box-shadow: 0rem .5625rem 2.25rem -1.3125rem $grayish-blue;
                 margin-bottom: 26px;
                 
 
                 &__header{
                     margin: 0;
                     color:$dark-blue;
-                    font-size: 21px;
+                    font-size: 1.3125rem;
                 }
 
                 &__body{
-                    margin: 9px 0 30px 0;
+                    margin: .5625rem 0 1.875rem 0;
                     color: $grayish-blue;
-                    font-size: 14px;
+                    font-size: .875rem;
                     font-weight: 400;
                 }
 
@@ -135,38 +132,38 @@ body{
             
             .col1{
 
-                @media (min-width: 992px){
+                @media (min-width: 62rem){
                 	display: flex;
                     flex-direction: column;
                     justify-content: center;
                 }
                 
                 .card{
-                    border-top: 4.6px solid $cyan;
+                    border-top: .2875rem solid $cyan;
                     
                 }
             }
 
             .col2{
                 .card:nth-child(1){
-                    border-top: 4.6px solid $red;
+                    border-top: .2875rem solid $red;
                 }
 
                 .card:nth-child(2){
-                    border-top: 4.6px solid $orange;
+                    border-top: .2875rem solid $orange;
                 }
             }
 
             .col3{
 
-                @media (min-width: 992px){
+                @media (min-width: 62rem){
                 	display: flex;
                     flex-direction: column;
                     justify-content: center;
                 }
 
                 .card{
-                    border-top: 4.6px solid $blue;
+                    border-top: .2875rem solid $blue;
                 }
             }
         }
@@ -174,13 +171,13 @@ body{
 
 
     footer{
-        @media (min-width: 992px){
+        @media (min-width: 62rem){
         	position: absolute;
             bottom: 0;
         }
 
         .attribution { 
-            font-size: 11px; 
+            font-size: .6875rem; 
             text-align: center; 
     
             a { 
